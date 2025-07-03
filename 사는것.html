@@ -4,18 +4,40 @@
     <title>기찬의 책상</title>
     <meta charset="utf-8">
        <style>
-     a {
-        color:silver;
+   a {
+        color:black;
         text-decoration: none;
-     }   
+     }  
+   #active {
+        color:red;
+     }
+   .saw  {
+        color:gray;
+     }
+     
+    h1 {
+        font-size: 52px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin:0;
+        padding: 20px;
+     }
+     ol{
+        border-right: 1px solid gray;
+        width: 150px;
+        margin:0;
+        padding: 20px;
+     }
+     body{
+        margin:0;
+     }
     </style>
 </head>
-
 <body>
     <h1><a href="index.html">책상</a></h1>
     <ol>
-        <li><a href="정의되지 않은것.html">정의되지 않은것</a></li> 
-        <li><a href="사는것.html" style="color: chartreuse;">사는 것</a></li>
+        <li><a href="정의되지 않은것.html" class="saw">정의되지 않은것</a></li> 
+        <li><a href="사는것.html" class="saw" id="active">사는 것</a></li>
         <li><a href="긴 것.html">긴 것</a></li>
     </ol>
    
